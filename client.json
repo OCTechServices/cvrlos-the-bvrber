@@ -1,0 +1,53 @@
+{
+  "_instrucciones": "Llena este archivo con los datos del cliente antes de abrir Claude Code. Todos los campos son requeridos a menos que se indique opcional.",
+
+  "negocio":          "[NEGOCIO]",
+  "negocio_corto":    "[NEGOCIO_CORTO]",
+  "tipo_negocio":     "Barbería Premium",
+  "slug":             "cvrlos-the-bvrber",
+  "url_vercel":       "cvrlos-the-bvrber-mx.vercel.app",
+
+  "colonia":          "[COLONIA]",
+  "alcaldia":         "[ALCALDIA]",
+  "cp":               "[CP]",
+  "direccion_corta":  "[CALLE Y NUMERO]",
+
+  "horario_semana":   "Lun–Vie [HORA_INICIO] AM–[HORA_FIN] PM",
+  "horario_sab":      "Sáb [HORA_INICIO] AM–[HORA_FIN] PM",
+
+  "url_booksy":       "https://booksy.com/es-mx/[ID_NEGOCIO]_[SLUG]...",
+  "url_instagram":    "https://www.instagram.com/[USUARIO]",
+  "url_facebook":     "https://www.facebook.com/[PAGINA]",
+  "url_whatsapp":     "https://wa.me/521[NUMERO_10_DIGITOS]",
+  "url_maps":         "https://maps.app.goo.gl/[ID]",
+
+  "rating":           "5.0",
+  "num_resenas":      "0",
+
+  "about_descripcion": "[HISTORIA DEL NEGOCIO EN 2-3 ORACIONES. Qué los diferencia, cuándo abrieron, qué ofrecen.]",
+  "principio_1_titulo": "Maestría",
+  "principio_1_desc":   "Barberos con dominio de la técnica clásica y la precisión moderna.",
+  "principio_2_titulo": "Consistencia",
+  "principio_2_desc":   "El mismo resultado cuidado, en cada visita. Sin sorpresas, solo precisión.",
+  "principio_3_titulo": "Atención al detalle",
+  "principio_3_desc":   "La diferencia está en el acabado. Cuidamos hasta el último milímetro.",
+
+  "servicios": [
+    { "n": 1, "nombre": "[SERVICIO 1]",    "desc": "[DESCRIPCION]", "precio": 0,   "duracion": "50 min" },
+    { "n": 2, "nombre": "[SERVICIO 2]",    "desc": "[DESCRIPCION]", "precio": 0,   "duracion": "30 min" },
+    { "n": 3, "nombre": "[SERVICIO 3]",    "desc": "[DESCRIPCION]", "precio": 0,   "duracion": "15 min" },
+    { "n": 4, "nombre": "[SERVICIO 4]",    "desc": "[DESCRIPCION]", "precio": 0,   "duracion": "50 min" },
+    { "n": 5, "nombre": "[SERVICIO COMBO]","desc": "[DESCRIPCION]", "precio": 0,   "duracion": "1 h 30", "popular": true }
+  ],
+  "servicios_extra": "[ej. Ceja $50 · Pigmentación $100]",
+
+  "resenas": [
+    { "n": 1, "texto": "[TEXTO DE LA RESENA]", "nombre": "[NOMBRE CLIENTE]", "servicio": "[SERVICIO]" },
+    { "n": 2, "texto": "[TEXTO DE LA RESENA]", "nombre": "[NOMBRE CLIENTE]", "servicio": "[SERVICIO]" },
+    { "n": 3, "texto": "[TEXTO DE LA RESENA]", "nombre": "[NOMBRE CLIENTE]", "servicio": "[SERVICIO]" }
+  ],
+
+  "quote_hero":        "[FRASE DESTACADA — parte 1]",
+  "quote_hero_accent": "[FRASE DESTACADA — parte 2 en acento]",
+  "tagline_footer":    "La confianza empieza en la silla."
+}

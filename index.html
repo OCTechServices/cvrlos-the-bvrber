@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>[NEGOCIO] — [COLONIA], CDMX</title>
+<meta name="description" content="[NEGOCIO] — grooming premium en [COLONIA], [ALCALDIA], CDMX. Corte, barba, facial y más. Reserva en línea.">
+<meta property="og:title" content="[NEGOCIO] — [COLONIA], CDMX">
+<meta property="og:description" content="Precisión. Estilo. Confianza. Barbería premium en [ALCALDIA], Ciudad de México.">
+<meta property="og:image" content="https://[URL_VERCEL]/assets/og-image.png">
+<meta property="og:type" content="website">
+<link rel="icon" type="image/png" href="assets/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="sections.css">
+<noscript><style>.reveal{opacity:1 !important;transform:none !important}.hero h1 .ln>span{transform:none !important}</style></noscript>
+</head>
+<body id="top">
+
+<!-- ===================== NAV ===================== -->
+<header class="nav" id="nav">
+  <div class="wrap nav__in">
+    <a href="#top" class="brand" aria-label="[NEGOCIO]">
+      <img class="brand__mark-img" src="assets/logo-mark.png" alt="[NEGOCIO]">
+      <span class="brand__type">[NEGOCIO]</span>
+    </a>
+
+    <nav class="nav__links" aria-label="Principal">
+      <a class="nav__link" href="#about">Nosotros</a>
+      <a class="nav__link" href="#services">Servicios</a>
+      <a class="nav__link" href="#gallery">Galería</a>
+      <a class="nav__link" href="#reviews">Reseñas</a>
+    </nav>
+
+    <div class="nav__actions">
+      <a class="btn btn--gold" href="[URL_BOOKSY]" target="_blank" rel="noopener">Reservar</a>
+    </div>
+
+    <button class="burger" id="burger" aria-label="Abrir menú" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- mobile menu -->
+<div class="menu" id="menu">
+  <a href="#about"><span>Nosotros</span><span class="n">01</span></a>
+  <a href="#services"><span>Servicios</span><span class="n">02</span></a>
+  <a href="#gallery"><span>Galería</span><span class="n">03</span></a>
+  <a href="#reviews"><span>Reseñas</span><span class="n">04</span></a>
+  <a href="#booking"><span>Reservar</span><span class="n">05</span></a>
+  <div class="menu__foot">
+    <a href="[URL_INSTAGRAM]" target="_blank" rel="noopener">Instagram</a>
+    <a href="[URL_BOOKSY]" target="_blank" rel="noopener">Reservar en Booksy</a>
+  </div>
+</div>
+
+<!-- ===================== HERO ===================== -->
+<section class="hero" id="hero">
+  <div class="hero__media">
+    <image-slot id="hero-bg" fit="cover" src="assets/ph/hero.jpg" placeholder="Suelta una imagen cinematografica — barbero trabajando, alto contraste"></image-slot>
+  </div>
+  <div class="hero__in wrap">
+    <div class="hero__eyebrow"><span class="eyebrow">[TIPO_NEGOCIO] · [COLONIA], CDMX</span></div>
+    <h1 class="display h-hero">
+      <span class="ln"><span>Precision.</span></span>
+      <span class="ln"><span>Estilo.</span></span>
+      <span class="ln"><span>Confianza.</span></span>
+    </h1>
+    <p class="lead hero__sub">Grooming moderno para quienes valoran cada detalle.</p>
+    <div class="hero__cta">
+      <a class="btn btn--gold btn--lg" href="[URL_BOOKSY]" target="_blank" rel="noopener">Reservar Cita <span class="arr">&#8594;</span></a>
+      <a class="btn btn--ghost btn--lg" href="#services">Ver Servicios</a>
+    </div>
+  </div>
+  <div class="hero__bar">
+    <div class="wrap">
+      <span class="scrollcue"><i></i> Desliza</span>
+      <span class="meta">&#9733; [RATING] · [NUM_RESENAS] resenas · Con cita</span>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== ABOUT ===================== -->
+<section class="section about" id="about">
+  <div class="wrap about__grid">
+    <div class="about__copy">
+      <span class="eyebrow reveal">Nuestro Estandar</span>
+      <h2 class="display h-sec reveal" data-d="1">Hechos con<br>consistencia.</h2>
+      <p class="lead reveal" data-d="2">[ABOUT_DESCRIPCION] <!-- Ej: "[NEGOCIO] nacio de una idea simple: un buen corte nunca debe dejarse al azar. Cada silla, cada barbero, cada visita — al mismo estandar exacto." --></p>
+      <div class="principles reveal" data-d="3">
+        <div class="principle">
+          <span class="pn">01</span>
+          <div><h4>[PRINCIPIO_1_TITULO]</h4><p>[PRINCIPIO_1_DESC]</p></div>
+        </div>
+        <div class="principle">
+          <span class="pn">02</span>
+          <div><h4>[PRINCIPIO_2_TITULO]</h4><p>[PRINCIPIO_2_DESC]</p></div>
+        </div>
+        <div class="principle">
+          <span class="pn">03</span>
+          <div><h4>[PRINCIPIO_3_TITULO]</h4><p>[PRINCIPIO_3_DESC]</p></div>
+        </div>
+      </div>
+    </div>
+    <div class="about__media reveal" data-d="2">
+      <image-slot id="about-portrait" radius="0" src="assets/ph/about.jpg" placeholder="Suelta un retrato — barbero o detalle"></image-slot>
+      <div class="tagchip">&#9733; [RATING] · <b>[NUM_RESENAS] resenas</b> en Booksy</div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== SERVICES ===================== -->
+<section class="section services" id="services">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <span class="eyebrow reveal">Los Servicios</span>
+        <h2 class="display h-sec reveal" data-d="1">Cada detalle,<br>cuidado.</h2>
+      </div>
+      <p class="sec-head__r muted reveal" data-d="2">Una carta enfocada, ejecutada sin concesiones. Precios en pesos (MXN); la experiencia, todo menos ordinaria.</p>
+    </div>
+
+    <div class="menu-list reveal" data-d="1">
+      <div class="srv">
+        <span class="srv__n">01</span>
+        <div class="srv__main">
+          <div class="srv__name">[SERVICIO_1_NOMBRE]</div>
+          <p class="srv__desc">[SERVICIO_1_DESC]</p>
+        </div>
+        <div class="srv__meta"><div class="srv__price">$[SERVICIO_1_PRECIO]</div><div class="srv__dur">[SERVICIO_1_DUR]</div></div>
+      </div>
+      <div class="srv">
+        <span class="srv__n">02</span>
+        <div class="srv__main">
+          <div class="srv__name">[SERVICIO_2_NOMBRE]</div>
+          <p class="srv__desc">[SERVICIO_2_DESC]</p>
+        </div>
+        <div class="srv__meta"><div class="srv__price">$[SERVICIO_2_PRECIO]</div><div class="srv__dur">[SERVICIO_2_DUR]</div></div>
+      </div>
+      <div class="srv">
+        <span class="srv__n">03</span>
+        <div class="srv__main">
+          <div class="srv__name">[SERVICIO_3_NOMBRE]</div>
+          <p class="srv__desc">[SERVICIO_3_DESC]</p>
+        </div>
+        <div class="srv__meta"><div class="srv__price">$[SERVICIO_3_PRECIO]</div><div class="srv__dur">[SERVICIO_3_DUR]</div></div>
+      </div>
+      <div class="srv">
+        <span class="srv__n">04</span>
+        <div class="srv__main">
+          <div class="srv__name">[SERVICIO_4_NOMBRE]</div>
+          <p class="srv__desc">[SERVICIO_4_DESC]</p>
+        </div>
+        <div class="srv__meta"><div class="srv__price">$[SERVICIO_4_PRECIO]</div><div class="srv__dur">[SERVICIO_4_DUR]</div></div>
+      </div>
+      <div class="srv feature">
+        <span class="srv__n">05</span>
+        <div class="srv__main">
+          <div class="srv__name">[SERVICIO_5_NOMBRE] <span class="tag-best">Lo mas pedido</span></div>
+          <p class="srv__desc">[SERVICIO_5_DESC]</p>
+        </div>
+        <div class="srv__meta"><div class="srv__price">$[SERVICIO_5_PRECIO]</div><div class="srv__dur">[SERVICIO_5_DUR]</div></div>
+      </div>
+    </div>
+    <p class="muted reveal" data-d="2" style="margin-top:1.6rem;font-size:0.92rem">[SERVICIOS_EXTRA] &middot; <a href="[URL_BOOKSY]" target="_blank" rel="noopener" style="color:var(--accent);text-decoration:underline;text-underline-offset:3px">Carta completa en Booksy</a>.</p>
+  </div>
+</section>
+
+<!-- ===================== GALLERY ===================== -->
+<section class="section gallery" id="gallery">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <span class="eyebrow reveal">El Trabajo</span>
+        <h2 class="display h-sec reveal" data-d="1">Que hable<br>el trabajo.</h2>
+      </div>
+      <p class="sec-head__r muted reveal" data-d="2">Un registro editorial del lugar, el oficio y el acabado.</p>
+    </div>
+    <div class="gal-grid reveal" data-d="1">
+      <image-slot class="g1" id="gal-1" radius="0" src="assets/ph/g1.jpg" placeholder="Editorial amplia — silla / local"></image-slot>
+      <image-slot class="g2" id="gal-2" radius="0" src="assets/ph/g2.jpg" placeholder="Retrato — corte terminado"></image-slot>
+      <image-slot class="g3" id="gal-3" radius="0" src="assets/ph/g3.jpg" placeholder="Detalle — fade"></image-slot>
+      <image-slot class="g4" id="gal-4" radius="0" src="assets/ph/g4.jpg" placeholder="Detalle — barba"></image-slot>
+      <image-slot class="g5" id="gal-5" radius="0" src="assets/ph/g5.jpg" placeholder="Herramientas / textura"></image-slot>
+      <image-slot class="g6" id="gal-6" fit="contain" radius="0" src="assets/ph/g6.jpg" placeholder="Panoramica — interior"></image-slot>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== REVIEWS ===================== -->
+<section class="section reviews" id="reviews">
+  <div class="wrap">
+    <span class="eyebrow reveal" style="display:flex;justify-content:center">Resenas</span>
+    <div class="rev-hero reveal" data-d="1">
+      <p class="quote">"[QUOTE_HERO] <span class="accent">[QUOTE_HERO_ACCENT]</span>"</p>
+      <p class="muted" style="margin-top:1.4rem;letter-spacing:0.04em">&#9733;&#9733;&#9733;&#9733;&#9733; &nbsp;[RATING] · [NUM_RESENAS] resenas verificadas en Booksy</p>
+    </div>
+    <div class="rev-grid reveal" data-d="2">
+      <div class="rev">
+        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p>[RESENA_1_TEXTO]</p>
+        <div class="who"><b>[RESENA_1_NOMBRE]</b><span>Cliente confirmado &middot; [RESENA_1_SERVICIO]</span></div>
+      </div>
+      <div class="rev">
+        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p>[RESENA_2_TEXTO]</p>
+        <div class="who"><b>[RESENA_2_NOMBRE]</b><span>Cliente confirmado &middot; [RESENA_2_SERVICIO]</span></div>
+      </div>
+      <div class="rev">
+        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p>[RESENA_3_TEXTO]</p>
+        <div class="who"><b>[RESENA_3_NOMBRE]</b><span>Cliente confirmado &middot; [RESENA_3_SERVICIO]</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== BOOKING ===================== -->
+<section class="section booking" id="booking">
+  <div class="wrap book-grid">
+    <div class="book-pitch">
+      <span class="eyebrow on-light">Reserva</span>
+      <h2 class="display h-sec">Reserva<br>tu silla.</h2>
+      <p class="lead">Reservamos en linea por Booksy — elige servicio, barbero y horario en segundos, con confirmacion inmediata y recordatorios automaticos.</p>
+      <div class="book-info">
+        <div class="row">
+          <span class="k">Horario</span>
+          <span class="v">[HORARIO_SEMANA] &middot; [HORARIO_SAB]</span>
+        </div>
+        <div class="row">
+          <span class="k">Estudio</span>
+          <span class="v">[DIRECCION_CORTA], Col. [COLONIA], [ALCALDIA], [CP], CDMX</span>
+        </div>
+        <div class="row">
+          <span class="k">Llegar</span>
+          <span class="v"><a href="[URL_MAPS]" target="_blank" rel="noopener" style="color:var(--gold-d);text-decoration:underline;text-underline-offset:3px">Ver en Google Maps &#8594;</a></span>
+        </div>
+        <div class="row">
+          <span class="k">WhatsApp</span>
+          <span class="v"><a href="[URL_WHATSAPP]" target="_blank" rel="noopener" style="color:var(--gold-d);text-decoration:underline;text-underline-offset:3px">Ver catalogo de servicios &#8594;</a></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="book-card booky">
+      <div class="booky__head">
+        <span class="booky__rating"><span class="booky__stars">&#9733;</span> <b>[RATING]</b> &middot; [NUM_RESENAS] resenas</span>
+        <span class="booky__badge">Reserva 24/7</span>
+      </div>
+      <div class="booky__body">
+        <h3 class="booky__title">Reserva en Booksy</h3>
+        <p class="booky__lead">Agenda en menos de un minuto. Confirmacion inmediata, recordatorios automaticos y todo tu historial en un solo lugar.</p>
+        <ol class="booky__steps">
+          <li><span class="booky__num">1</span> Elige tu servicio y a tu barbero</li>
+          <li><span class="booky__num">2</span> Escoge la fecha y la hora disponible</li>
+          <li><span class="booky__num">3</span> Confirma — y listo</li>
+        </ol>
+        <div class="booky__menu">
+          <div class="booky__mlabel">Lo mas reservado</div>
+          <div class="booky__mrow"><span>[SERVICIO_1_NOMBRE]</span><b>$[SERVICIO_1_PRECIO]</b></div>
+          <div class="booky__mrow"><span>[SERVICIO_5_NOMBRE]</span><b>$[SERVICIO_5_PRECIO]</b></div>
+          <div class="booky__mrow"><span>[SERVICIO_2_NOMBRE]</span><b>$[SERVICIO_2_PRECIO]</b></div>
+          <div class="booky__mrow"><span>[SERVICIO_3_NOMBRE]</span><b>$[SERVICIO_3_PRECIO]</b></div>
+        </div>
+      </div>
+      <div class="booky__foot">
+        <a class="btn btn--gold btn--block btn--lg" href="[URL_BOOKSY]" target="_blank" rel="noopener">Reservar en Booksy <span class="arr">&#8594;</span></a>
+        <a class="booky__alt" href="#services">Ver la carta completa de servicios</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="footer">
+  <div class="wrap">
+    <div class="foot-word reveal">[NEGOCIO_CORTO]<span class="x">.</span></div>
+    <div class="foot-cols">
+      <div class="foot-col foot-cta">
+        <h5>Reserva</h5>
+        <p class="h-sub display">[TAGLINE_FOOTER]</p>
+        <a class="tlink" href="[URL_BOOKSY]" target="_blank" rel="noopener">Reservar cita <span class="arr">&#8594;</span></a>
+      </div>
+      <div class="foot-col">
+        <h5>Horario</h5>
+        <p>[HORARIO_SEMANA]</p>
+        <p>[HORARIO_SAB]</p>
+        <p>Con cita previa</p>
+      </div>
+      <div class="foot-col">
+        <h5>Estudio</h5>
+        <p>[DIRECCION_CORTA]</p>
+        <p>Col. [COLONIA]</p>
+        <p>[ALCALDIA], [CP], CDMX</p>
+      </div>
+      <div class="foot-col">
+        <h5>Siguenos</h5>
+        <a href="[URL_BOOKSY]" target="_blank" rel="noopener">Booksy</a>
+        <a href="[URL_INSTAGRAM]" target="_blank" rel="noopener">Instagram</a>
+        <a href="[URL_FACEBOOK]" target="_blank" rel="noopener">Facebook</a>
+        <a href="[URL_MAPS]" target="_blank" rel="noopener">Como llegar</a>
+      </div>
+    </div>
+    <div class="foot-bot">
+      <span class="small">&copy; <span id="yr"></span> [NEGOCIO] &middot; [COLONIA], CDMX</span>
+      <div class="socials">
+        <a href="[URL_INSTAGRAM]" target="_blank" rel="noopener">Instagram</a>
+        <a href="[URL_BOOKSY]" target="_blank" rel="noopener">Booksy</a>
+        <a href="[URL_WHATSAPP]" target="_blank" rel="noopener">Catalogo</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/image-slot.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
