@@ -1,53 +1,78 @@
 {
-  "_instrucciones": "Llena este archivo con los datos del cliente antes de abrir Claude Code. Todos los campos son requeridos a menos que se indique opcional.",
+  "_instrucciones": "Fill PENDIENTE fields before opening Claude Code.",
+  "_idioma": "ENGLISH — US-based client (Murrieta, CA). Claude should populate the HTML in English and translate any Spanish static strings.",
+  "_concepto": "Personal brand page for Carlos, an independent barber. Works at Legends Barbershop + available for house calls. Page is HIS brand, not the shop's.",
 
-  "negocio":          "[NEGOCIO]",
-  "negocio_corto":    "[NEGOCIO_CORTO]",
-  "tipo_negocio":     "Barbería Premium",
+  "negocio":          "Cvrlos The Bvrber",
+  "negocio_corto":    "CVRLOS",
+  "tipo_negocio":     "Independent Barber",
   "slug":             "cvrlos-the-bvrber",
-  "url_vercel":       "cvrlos-the-bvrber-mx.vercel.app",
+  "url_vercel":       "cvrlos-the-bvrber.vercel.app",
 
-  "colonia":          "[COLONIA]",
-  "alcaldia":         "[ALCALDIA]",
-  "cp":               "[CP]",
-  "direccion_corta":  "[CALLE Y NUMERO]",
+  "colonia":          "Murrieta",
+  "alcaldia":         "Riverside County, CA",
+  "cp":               "92563",
+  "direccion_corta":  "39500 Murrieta Hot Springs Rd., Ste 103",
 
-  "horario_semana":   "Lun–Vie [HORA_INICIO] AM–[HORA_FIN] PM",
-  "horario_sab":      "Sáb [HORA_INICIO] AM–[HORA_FIN] PM",
+  "horario_semana":   "Mon–Fri 9:00 AM – 7:00 PM",
+  "horario_sab":      "Sat 9:00 AM – 5:00 PM",
+  "horario_dom":      "Sun 9:00 AM – 3:00 PM",
 
-  "url_booksy":       "https://booksy.com/es-mx/[ID_NEGOCIO]_[SLUG]...",
-  "url_instagram":    "https://www.instagram.com/[USUARIO]",
-  "url_facebook":     "https://www.facebook.com/[PAGINA]",
-  "url_whatsapp":     "https://wa.me/521[NUMERO_10_DIGITOS]",
-  "url_maps":         "https://maps.app.goo.gl/[ID]",
+  "_nota_booksy": "Booksy not set up yet — create profile during onboarding. Fill URL after.",
+  "url_booksy":       "[PENDIENTE — create Booksy profile during onboarding]",
+  "url_instagram":    "https://www.instagram.com/cvrlosthebvrber",
+  "url_facebook":     "[PENDIENTE — does Carlos have a personal FB page?]",
+  "url_whatsapp":     "https://wa.me/19518552192",
+  "url_maps":         "[PENDIENTE — Google Maps link for Legends Barbershop]",
+  "url_legendfades":  "https://www.legendfades.com",
 
-  "rating":           "5.0",
-  "num_resenas":      "0",
+  "_nota_phone": "Carlos personal: 951-855-2192 | Legends shop: (951) 600-1100",
 
-  "about_descripcion": "[HISTORIA DEL NEGOCIO EN 2-3 ORACIONES. Qué los diferencia, cuándo abrieron, qué ofrecen.]",
-  "principio_1_titulo": "Maestría",
-  "principio_1_desc":   "Barberos con dominio de la técnica clásica y la precisión moderna.",
-  "principio_2_titulo": "Consistencia",
-  "principio_2_desc":   "El mismo resultado cuidado, en cada visita. Sin sorpresas, solo precisión.",
-  "principio_3_titulo": "Atención al detalle",
-  "principio_3_desc":   "La diferencia está en el acabado. Cuidamos hasta el último milímetro.",
+  "rating":           "[PENDIENTE — get from Google / Booksy post-onboarding]",
+  "num_resenas":      "[PENDIENTE]",
+
+  "about_descripcion": "Carlos brings precision to every cut — whether you come to the shop or he comes to you. Based at Legends Barbershop in Murrieta, he's built a reputation on clean lines, consistent fades, and zero excuses for a bad haircut.",
+  "principio_1_titulo": "Precision",
+  "principio_1_desc":   "Every fade, every line — executed with the same discipline. No shortcuts.",
+  "principio_2_titulo": "At Your Door",
+  "principio_2_desc":   "Available at Legends or direct to your home. Same quality, wherever you are.",
+  "principio_3_titulo": "Your Look",
+  "principio_3_desc":   "Real advice on what works for your face. We don't just cut — we consult.",
 
   "servicios": [
-    { "n": 1, "nombre": "[SERVICIO 1]",    "desc": "[DESCRIPCION]", "precio": 0,   "duracion": "50 min" },
-    { "n": 2, "nombre": "[SERVICIO 2]",    "desc": "[DESCRIPCION]", "precio": 0,   "duracion": "30 min" },
-    { "n": 3, "nombre": "[SERVICIO 3]",    "desc": "[DESCRIPCION]", "precio": 0,   "duracion": "15 min" },
-    { "n": 4, "nombre": "[SERVICIO 4]",    "desc": "[DESCRIPCION]", "precio": 0,   "duracion": "50 min" },
-    { "n": 5, "nombre": "[SERVICIO COMBO]","desc": "[DESCRIPCION]", "precio": 0,   "duracion": "1 h 30", "popular": true }
+    { "n": 1, "nombre": "Men's Haircut",           "desc": "Precision cut, consultation, and styling tailored to your face shape.",                     "precio": 40, "duracion": "~45 min" },
+    { "n": 2, "nombre": "Haircut & Beard",          "desc": "Full haircut plus beard shaping and line up. The complete package.",                         "precio": 50, "duracion": "~1 hr",   "popular": true },
+    { "n": 3, "nombre": "Beard Line Up / Trim",     "desc": "Clean beard shaping and crisp line up with a fresh finish.",                                 "precio": 25, "duracion": "~20 min" },
+    { "n": 4, "nombre": "Hot Towel Shave & Cut",    "desc": "Classic hot towel shave paired with a full haircut. The premium experience.",                "precio": 60, "duracion": "~1 hr" },
+    { "n": 5, "nombre": "House Call",               "desc": "Carlos comes to you. Same service, your space. [PENDIENTE — confirmar precio con Carlos]",  "precio": 0,  "duracion": "[PENDIENTE]" }
   ],
-  "servicios_extra": "[ej. Ceja $50 · Pigmentación $100]",
+  "servicios_extra": "Kid's Cut $30 · Buzz Cut $30 · Head Line Up $25 · Hot Towel Shave $40 · Active Military $30 · Seniors $30 · Cut & Design (varies)",
+  "servicios_secundarios": [
+    { "nombre": "Walk-in",               "precio": "30" },
+    { "nombre": "Buzz Cut",              "precio": "30" },
+    { "nombre": "Head Line Up",          "precio": "25" },
+    { "nombre": "Hot Towel Shave",       "precio": "40" },
+    { "nombre": "Active Military",       "precio": "30" },
+    { "nombre": "Seniors",               "precio": "30" },
+    { "nombre": "Cut & Design",          "precio": "varies" }
+  ],
+
+  "amenidades": [
+    "Walk-ins Welcome",
+    "House Calls Available",
+    "Card Accepted",
+    "Active Military Discount",
+    "Senior Discount",
+    "Book Online 24/7"
+  ],
 
   "resenas": [
-    { "n": 1, "texto": "[TEXTO DE LA RESENA]", "nombre": "[NOMBRE CLIENTE]", "servicio": "[SERVICIO]" },
-    { "n": 2, "texto": "[TEXTO DE LA RESENA]", "nombre": "[NOMBRE CLIENTE]", "servicio": "[SERVICIO]" },
-    { "n": 3, "texto": "[TEXTO DE LA RESENA]", "nombre": "[NOMBRE CLIENTE]", "servicio": "[SERVICIO]" }
+    { "n": 1, "texto": "[PENDIENTE — real review from Google or DM/Instagram]", "nombre": "[NAME]", "servicio": "[SERVICE]" },
+    { "n": 2, "texto": "[PENDIENTE]", "nombre": "[NAME]", "servicio": "[SERVICE]" },
+    { "n": 3, "texto": "[PENDIENTE]", "nombre": "[NAME]", "servicio": "[SERVICE]" }
   ],
 
-  "quote_hero":        "[FRASE DESTACADA — parte 1]",
-  "quote_hero_accent": "[FRASE DESTACADA — parte 2 en acento]",
-  "tagline_footer":    "La confianza empieza en la silla."
+  "quote_hero":        "No bad haircuts.",
+  "quote_hero_accent": "That's not a promise — it's the standard.",
+  "tagline_footer":    "Your look, wherever you are."
 }
